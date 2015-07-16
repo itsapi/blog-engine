@@ -1,0 +1,115 @@
+body{
+	font-family: calibri, sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 100px;
+	margin: 0;
+	text-transform: uppercase;
+}
+h1 a{
+	text-decoration: none;
+	color: #000;
+	border: none;
+}
+h1 a:hover{
+	color: #505050;
+}
+nav ul{
+	margin: 0;
+	padding-left: 10px;
+}
+nav li{
+	list-style: none;
+	display: inline;
+	padding-right: 20px;
+}
+nav{
+	border-bottom: solid #000 1px;
+	padding-bottom: 10px;
+	margin: 0 10px;
+}
+a{
+	color: #000;
+	border-bottom: dotted #000 1px;
+	text-decoration: none;
+}
+a:hover{
+	border: none;
+}
+.posts {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 220px;
+}
+.posts li, .posts td{
+	border-bottom: solid #ccc 1px;
+	list-style: none;
+	padding-left: 20px;
+	margin: 0 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.posts h5, .posts h3{
+	display:inline;
+	padding-right: 20px;
+}
+footer{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#sidebar{
+	position: absolute;
+	width: 200px;
+	right: 0;
+	top: 175px;
+	padding-left: 10px;
+	padding-right: 20px;
+	border-left: solid #ccc 1px;
+	padding-bottom: 20px;
+}
+#sidebar input[type="email"]{
+	width: 125px;
+}
+#sidebar ol{
+	padding: 0;
+	margin:0;
+	padding-left: 20px;
+}
+#sidebar li{
+	list-style:none;
+}
+#all_posts{
+	margin-left: 20px;
+	font-size: 20px;
+}
+.list li{
+	list-style: none;
+}
+h2, article p, article h4{
+	margin: 20px;
+}
+article p{
+	text-align: justify;
+	margin-right: 40px;
+}
+#comment, #create{
+	margin-left: 20px;
+}
+#comment textarea{
+	width: 400px;
+	height: 100px;
+}
+blockquote{
+	border-left: solid #ccc 1px;
+	padding: 5px;
+}
+.error{
+	margin-left: 20px;
+	color: red;
+}
+table.posts{
+	width: 100%;
+	padding-right: 240px;
+	margin: 10px;
+}
